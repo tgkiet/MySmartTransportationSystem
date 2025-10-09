@@ -1,0 +1,90 @@
+# =================================================================
+# Logs
+# =================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =================================================================
+# Dependencies & Lock Files
+# =================================================================
+# Thư mục chứa các gói cài đặt của Node.js
+node_modules/
+
+# Lock file của các package manager khác (bỏ qua nếu không dùng)
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# QUAN TRỌNG: KHÔNG bỏ qua package-lock.json (npm) hoặc yarn.lock (yarn)
+
+# =================================================================
+# Build artifacts & Local files
+# =================================================================
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# =================================================================
+# Python specific
+# =================================================================
+# Thư mục môi trường ảo (bao gồm các tên phổ biến)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Python build artifacts
+build/
+*.egg-info/
+
+# =================================================================
+# AI / ML / Data specific
+# =================================================================
+# Thư mục video test tải về
+app/video_test/
+
+# Thư mục chứa các ảnh cắt ra từ phát hiện
+cropped-detections/
+
+# (TÙY CHỌN) Bỏ qua các model AI nếu chúng quá nặng và được tải riêng
+# app/AI models/
+
+# =================================================================
+# Editor directories and files
+# =================================================================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =================================================================
+# Temporary & Personal files
+# =================================================================
+# Các file test và tạm thời của bạn
+BACKEND_threading
+test.py
+t.py
+ideal_new.py
+fast_api.py
+tempCodeRunnerFile.py
+FRONTEND_for_testing
+main.ipynb
+ChatBot.py
+Test
+
+# Secrets and environment variables
+.env
+*.env
