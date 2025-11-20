@@ -1,5 +1,5 @@
-# Smart Transportation System
-
+# Project Môn chuyên đề Hệ thống Giao thông Thông minh
+## Hệ thống giám sát mật độ giao thông qua camera giám sát
 A modern transportation monitoring and analysis system with real-time traffic analytics, vehicle detection, and an AI-powered chatbot interface.
 
 ## Architecture Overview
